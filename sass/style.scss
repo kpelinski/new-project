@@ -1,0 +1,57 @@
+*,*::before, *::after {
+    box-sizing: border-box;
+}
+.navigation li {
+    display: inline-block;
+    margin-right: 40px;
+    position: relative;
+}
+img {
+    position: relative;
+    max-width: 100%;
+}
+.text {
+    text-align: center;
+}
+.text h6 {
+    font-weight: bold;
+    font-size: 44px;
+    margin-bottom: 2px;
+}
+.text p {
+    color: gray;
+    font-size: 18px;
+    margin-bottom: 44px;
+}
+.service i {
+    font-size: 32px;
+    color: gold;
+}
+.portfolio {
+    background: gray;
+}
+.portfolio h6 {
+    padding-top: 150px;
+}
+.card-body h5 {
+    text-align: center;
+}
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.card {
+    margin-bottom: 10px;
+}
+.card-body p {
+    color: gray;
+    text-align: center;
+}
+footer i {
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    margin-right: 30px;
+}
